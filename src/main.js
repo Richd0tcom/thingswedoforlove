@@ -59,7 +59,7 @@ scene("game", async () => {
     // --- Add the Player ---
     const player = add([
         k.sprite("spriteSheet", { anim: "fem-idle-down" }),
-        pos(400,250),
+        pos(420,250),
         area({
             shape: new k.Rect(k.vec2(0, -3), 16, 16),
           }),        // for collision detection
