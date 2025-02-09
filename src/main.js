@@ -328,7 +328,7 @@ scene("rightHouse", ({ visit }) => {
     // Instruction text to exit the scene
     add([
         text("Press Space or Tap to exit", { size: 12 }),
-        pos(350, height() - (height()/12)),
+        pos(350, 0),
         
     ]);
 
